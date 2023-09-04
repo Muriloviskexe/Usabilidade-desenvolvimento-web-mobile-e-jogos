@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="space.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Aula 02</title>
 </head>
 <body>
-    <h1>Aula sobre o básico de HTML</h1>
-    <h2>Isso não acaba nunca</h2>
-    <input type="text"/>
+    <h1>Continuidade do HTML</h1>
+
+    <form action="cadastrar/usuario" method="GET">
+        <p>Seu nome</p><input type="text" name="nome-user"/>
+        <p>Seu aniversário</p><input type="date" name="niver-user">
+        <p>Seu email</p><input type="email" name="email-user"/>
+        <p>Sua senha</p><input type="password" name="password-user"/>
+        
+        <p>Alguma Observação?</p>
+        <textarea name="Obs" id="caixa-obs" cols="60" rows="20"></textarea>
+        <br>
+        <input type="submit" />
+    </form>
 </body>
 </html>
