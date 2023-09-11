@@ -5,6 +5,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    height: 200vh;
 }
 
 form{
@@ -15,9 +18,24 @@ form{
     color: white;
     width: 600px;
     text-align: left;
+    border-radius: 50px;
+    height: 950px;
 }
 
 p{
     font-size: 20pt;
     font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    border-radius: 10px;
+    width: 200px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+input{
+    height: 30px;
 }
