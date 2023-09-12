@@ -9,16 +9,15 @@
     
     <script>
         let nome = prompt('Qual seu nome?')
-        let nota1 = prompt('Qual foi sua primera nota??')
-        let nota2 = prompt('Qual foi sua segunda nota??')
-        let notaFinal = (nota1 + nota2)
+        let nota1 = parseFloat(prompt('Qual foi sua primera nota??'))
+        let nota2 = parseFloat(prompt('Qual foi sua segunda nota??'))
+        let notaFinal = (nota1 + nota2) / 2
         let res
         if(notaFinal >= 6){
             res = 'Parabéns... voce foi aprovado'
         }else{
             res = 'Que pena, você foi reprovado'   
         }
-
         alert(`${nome}, sua nota foi ${notaFinal}... ${res}`)
 
     </script>

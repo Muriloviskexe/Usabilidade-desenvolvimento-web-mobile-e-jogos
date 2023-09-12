@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Digite seu nome</p>
+    <input type="text" id="nome">
+
+    <p>Digite sua Nota 1</p>
+    <input type="number" id="nota1">
+
+    <p>Digite sua Nota 2</p>
+    <input type="number" id="nota2">
+<br>
+    <button onclick="resposta()">Calcular média</button>
+
+    <div id="res"></div>
+    
+    <script>
+        function resposta(){
+            let nome = document.getElementById('#nome')
+           let nota1 = document.getElementById('#nota1')
+           let nota2 = document.getElementById('#nota2')
+           let res = (nota1 + nota2) / 2
+           document.write(`${res}`)
+        }
+    </script>
+</body>
+</html>
