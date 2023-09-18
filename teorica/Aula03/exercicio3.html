@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Digite seu nome</p>
-    <input type="text" id="nome">
-
-    <p>Digite sua Nota 1</p>
-    <input type="text" id="nota1">
-
-    <p>Digite sua Nota 2</p>
-    <input type="text" id="nota2">
-<br>
-    <button onclick="calcMedia()">Calcular média</button>
-
-    <div id="res"></div>
+    <main>
+        <h1>Calculador de Notas</h1>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        
+        <input type="text" id="nota1" placeholder="Digite sua primeira nota">
+        
+        <input type="text" id="nota2" placeholder="digite sua segunda nota">
+        <br>
+        <button onclick="calcMedia()">Calcular média</button>
+        <div id="res"></div>
+    </main>
     
     <script>
         function calcMedia(){
