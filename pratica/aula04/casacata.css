@@ -1,0 +1,13 @@
+p{
+    padding: 12px;
+}
+
+.engenharia{
+    background-color: lightblue;
+    color: azure;
+}
+
+.biologia{
+    background-color: rgb(255, 0, 0);
+    color: rgb(240, 240, 240);
+}
