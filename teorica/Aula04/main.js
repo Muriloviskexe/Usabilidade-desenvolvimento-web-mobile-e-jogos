@@ -1,5 +1,5 @@
 
-export function printFrutas(conteudo){
+function print(conteudo){
     let texto = conteudo 
     let linha = ''
     for(let i=0; i<=texto.length;i++){
