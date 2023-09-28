@@ -1,22 +1,261 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Titulo do site -->
+    <!--* Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!--* Titulo do site -->
     <title>Bootstrap demo</title>
-
-    <!-- Link CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   </head>
   <body>
+
     <h1>Hello, world!</h1>
 
+    <!--* Uso dos Display, nas tags de Titulo -->
+    <h1 class="display-1">Teste</h1>
+    <h1 class="display-2">Teste</h1>
+    <h1 class="display-3">Teste</h1>
+    <h1 class="display-4">Teste</h1>
 
-    <!-- Script JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--* Uso das classes de paragrafos -->
+    <h1 class="display-2">Formatação de paragrafos</h1>
+
+    <p class="lead">Destaca o paragrafo</p>
+    <p class="text-monospace">Texto mono espaçado</p>
+    <p class="font-weight-normal">Peso 'Normal'</p>
+    <p class="font-weight-bold">Negrito</p>
+    <p class="font-weight-light">Peso mais 'leve'</p>
+    <p class="font-italic">Texto em italico</p>
+    <p class="text-lowercase">TEXTO MINUSCULO</p>
+    <p class="text-uppercase">texto em maiusculo</p>
+    <p class="text-capitalize">Altera a primeira letra de cada palavra</p>
+    <p class="text-center">Texto centralizado</p>
+    <p class="text-right">Alinhamento a direita</p>
+    <p class="text-left">Alinhamento a esquerda</p>
+    <p class="text-truncate"><span class="font-weight-bold">Truncar o conteudo que passaria dos limites do componente.</span> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga commodi ipsum perspiciatis consequatur dolorum esse quasi maiores autem accusantium quis tempora neque accusamus incidunt expedita consectetur facilis atque, architecto soluta.</p>
+    <p class="text-justify"><span class="font-weight-bold">Texto justificado.</span> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus animi nisi officiis! Accusantium illo repudiandae, fugit nobis tempore voluptatibus possimus amet impedit. Dolorum quis iste sapiente, debitis commodi mollitia molestias?</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--* Blocos de citação -->
+    <h1 class="display-2">Blocos de citação</h1>
+
+    <!--* simples -->
+    <blockquote class="blockquote"> <p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</p></blockquote>
+
+    <!--* alinhado a direita -->
+    <blockquote class="blockquote text-right"><p>Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor.</p></blockquote>
+
+    <!--* com rodapé -->
+    <blockquote class="blockquote text-right">
+      <p>Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+
+      <footer class="blockquote-footer">
+        Lorem ipsum dolor sit: <cite title="Citação">Uma Citação</cite>
+      </footer>
+    </blockquote>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <article class="sticky-top text-center"> Compre já</article>
+
+    <!--* Listas -->
+    <h1 class="display-2">Listas</h1>
+
+    <!--* Lista sem propriedade de estilo e sem margem a esquerda -->
+    <ul class="list-unstyled">
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+      <li>Item4</li>
+      <li>Item5</li>
+    </ul>
+
+    <!--* Remove o marcador e poe margem -->
+    <ul class="list-inline">
+      <li class="list-inline-item">Item1</li>
+      <li class="list-inline-item">Item2</li>
+      <li class="list-inline-item">Item3</li>
+      <li class="list-inline-item">Item4</li>
+
+    </ul>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!--* Alinhamento de texto responsivo -->
+    <h1 class="display-2">Alinhamentos</h1>
+    <!--* Nome                                Medida (em pixels)
+
+      Pequeno (sm)                        576 <= largura < 768
+      Médio (md)                          768 <= largura < 992
+      Grande (lg)                         992 <= largura <1200
+      Extra Grande (xl)                   1200 <= largura 
+    -->
+
+    <p class="text-sm-right">Alinhamento à direita para telas pelo menos pequenas(sm)</p>
+    <p class="text-md-right">Alinhamento à direitra para telas pelo menos médias(md)</p>
+    <p class="text-lg-right">Alinhamento à direitra para telas pelo menos grandes(lg)</p>
+    <p class="text-lg-right">Alinhamento à direitra para telas pelo menos extra grandes (xl)</p>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <!--* Lidando com 'Display' -->
+    <h1 class="display-2">"display"</h1>
+
+    <!--* Links com display block -->
+    <a href="#" class="d-block" style="background-color: snow;">Link 1</a>
+    <a href="#" class="d-block" style="background-color: snow;">Link 2</a>
+
+    <!--*  Links com display inline -->
+    <p class="d-inline" style="background-color: yellow;">Paragrafo inline 1</p>
+    <p class="d-inline" style="background-color: yellow;">Paragrafo inline 2</p>
+
+    <!--* Divs com display inline block -->
+    <div class="d-inline-block" style="color:white; background-color: green; width: 100px; height: 100px;">Mussum Ipsum, cacilds vidis litro abertis.</div>
+    <div class="d-inline-block" style="color:white; background-color: green; width: 100px; height: 100px;">Mussum Ipsum, cacilds vidis litro abertis.</div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!--* Float e position -->
+    <h1 class="display-2">Float</h1>
+
+    <!--* Float geral -->
+    <div class="float-right">
+      <span class="font-weight-bold">Flutuando para a direita</span>
+    </div>
+
+    <div class="float-left">
+      <span class="font-weight-bold">Flutuando para a esquerda</span>
+    </div>
+
+    <br>
+
+    <!--* Float responsivo -->
+    <div class="float-sm-right float-md-left float-lg-right float-xl-left">
+      <span class="font-weight-bold">Float responsivo</span>
+    </div>
+    
+    <br>
+
+    <div style="background-color: blue;" class="clearfix">
+      <button class="float-left">Esquerda</button>
+      <button class="float-right">Direita</button>
+    </div>
+    
+      <p>Onde fica esse p?</p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--* Posicionamento -->
+    <nav class="fixed-top" >Menu principal</nav>
+
+    <footer class="fixed-bottom" >Volte sempre</footer>
+
+
+
+    <!--* Cor de fundo e de texto -->
+    <h1 class="display-2">Formatação cores</h1>
+
+    <!--*
+      Quando queremos alterar a cor
+      da fonte, o nome é precedido por text-. Se desejamos alterar a cor de fundo, o prefixo é bg-
+    -->
+    <p class="text-primary">text-primary</p>
+    <p class="bg-primary text-light">bg-primary</p>
+
+    <p class="text-secondary">text-primary</p>
+    <p class="bg-secondary text-light">bg-primary</p>
+
+    <p class="text-warning bg-dark">texto de aviso com fundo escuro</p>
+
+    <p class="text-success">Texto de sucesso</p>
+    <p class="bg-success text-light">Fundo de sucesso</p>
+
+    <p class="text-danger">texto de perigo</p>
+    <p class="bg-danger text-light">Fundo de perigo</p>
+
+    <p class="text-info">Texto de informação</p>
+    <p class="bg-info text-light">Fundo de informação</p>
+
+    <p class="text-light bg-dark">Texto claro</p>
+    <p class="bg-light">Fundo claro</p>
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    <!--* Script JS -->
+    <!--* jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   </body>
 </html>
