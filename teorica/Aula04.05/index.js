@@ -1,4 +1,4 @@
-import Pessoa  from "./pessoa.js"
+import Pessoa from './Pessoa.js'
 
 
 let murilo = Pessoa('Murilo', 'Costa', 20)
