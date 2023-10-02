@@ -5,7 +5,7 @@
     <img align="center" alt="Static Badge" src="https://img.shields.io/badge/Tecnologias-HTML_CSS-blue">
     <img align="center" alt="Static Badge" src="https://img.shields.io/badge/Tecnologias-Javascript-purple">
     <img align="center" alt="Static Badge" src="https://img.shields.io/badge/Tecnologias-Vue-red">
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 
 
 ## O que é esse Repositório?
