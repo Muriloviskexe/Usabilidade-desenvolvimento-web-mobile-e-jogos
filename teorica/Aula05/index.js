@@ -1,11 +1,13 @@
-(function(){
-    console.log('oiiii')
-})()
+import Pessoa from './pessoa.js'
 
-let x = 4
 
-let s = function print(){
-    x++
-    return('olá '+ x)
-} 
-console.log(s())
+let murilo = Pessoa('Murilo', 'Costa', 20)
+let isabela = Pessoa('Isabela', 'Guarnieri', 20)
+
+murilo.fazNiver()
+isabela.fazNiver()
+
+murilo.imprime()
+isabela.imprime()
+
+
